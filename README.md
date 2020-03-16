@@ -2,12 +2,12 @@
 
 Transpile to javascript
 
-```.sh
+```sh
 yarn tsc
 ```
 
 Run server with auto transpiling
 
-```.sh
+```sh
 yarn dev:server
 ```
