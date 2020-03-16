@@ -8,5 +8,6 @@ routes.get('/', (req, res) => {
 });
 
 routes.get('/users', UserController.index);
+routes.get('/users/create', UserController.create);
 
 export default routes;
